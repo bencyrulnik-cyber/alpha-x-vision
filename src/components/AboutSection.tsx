@@ -1,10 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import desertImage from "@/assets/desert-dunes.jpg";
-
 const AboutSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
-
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       if (entry.isIntersecting) {
@@ -18,9 +16,7 @@ const AboutSection = () => {
     }
     return () => observer.disconnect();
   }, []);
-
-  return (
-    <section id="about" className="py-24 md:py-32 bg-background" ref={sectionRef}>
+  return <section id="about" className="py-24 md:py-32 bg-background" ref={sectionRef}>
       <div className="container mx-auto px-6 md:px-12">
         {/* Intro */}
         <div className="max-w-4xl mx-auto text-center mb-20 md:mb-32">
@@ -47,10 +43,7 @@ const AboutSection = () => {
               with deep sector expertise. Our approach is deliberate, patient, and
               focused on partnerships that generate enduring returns.
             </p>
-            <p className="text-muted-foreground font-light leading-relaxed">
-              We evaluate mid-to-large size deals on a case-by-case basis, seeking
-              exceptional opportunities across industries poised to define the future.
-            </p>
+            <p className="text-muted-foreground font-light leading-relaxed">We evaluate mid-to-large size deals  seeking exceptional opportunities across industries poised to define the future.</p>
             <div className="pt-4">
               <span className="inline-block text-xs tracking-[0.15em] text-accent border-b border-accent pb-1 cursor-pointer hover:opacity-70 transition-opacity">
                 LEARN MORE ABOUT OUR APPROACH
@@ -59,8 +52,6 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AboutSection;
