@@ -1,6 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import { Rocket, Cpu, Heart, Dna, Leaf, Building2, UtensilsCrossed, Gem } from "lucide-react";
 
+// Media logos
+import businessInsiderLogo from "@/assets/media/business-insider.png";
+import ceoWeeklyLogo from "@/assets/media/ceo-weekly.png";
+import benzingaLogo from "@/assets/media/benzinga.png";
+import ibtimesLogo from "@/assets/media/ibtimes.png";
+import laWeeklyLogo from "@/assets/media/la-weekly.png";
+import entrepreneurLogo from "@/assets/media/entrepreneur.png";
+import khaleejTimesLogo from "@/assets/media/khaleej-times.png";
+import appleNewsLogo from "@/assets/media/apple-news.png";
+import nyWeeklyLogo from "@/assets/media/ny-weekly.png";
+import msnLogo from "@/assets/media/msn.png";
+import forbesLogo from "@/assets/media/forbes.png";
+
 const investmentAreas = [
   {
     icon: Rocket,
@@ -133,26 +146,30 @@ const InvestmentsSection = () => {
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
-              { name: "Business Insider", url: "https://markets.businessinsider.com/news/stocks/prabhav-sharma-highlights-the-90-10-rule-of-investments-showcasing-the-power-law-of-wealth-creation-1035188412" },
-              { name: "CEO Weekly", url: "https://ceoweekly.com/prabhav-sharma-analyzes-potential-bank-collapses/" },
-              { name: "Benzinga", url: "https://www.benzinga.com/opinion/23/06/32694882/chatgpt-a-game-changer-for-private-equity-and-venture-capital-investors-featuring-expert-insights-fr" },
-              { name: "IB Times", url: "https://www.ibtimes.sg/navigating-rising-interest-rates-prabhav-sharmas-expert-guidance-investors-70436" },
-              { name: "LA Weekly", url: "https://www.laweekly.com/investing-in-business-vs-investing-in-people-prabhav-sharmas-holistic-approach/" },
-              { name: "Entrepreneur", url: "https://www.entrepreneur.com/en-in/news-and-trends/unveiling-the-momentum-investors-flocking-to-us-mid-stage/464113" },
-              { name: "Khaleej Times", url: "https://www.khaleejtimes.com/kt-network/private-equity-and-venture-capital-investor-prabhav-sharma-illuminates-the-path-of-risk-management-a" },
-              { name: "Apple News", url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
-              { name: "NY Weekly", url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
-              { name: "MSN", url: "https://www.msn.com/en-us/money/technology/from-lab-to-market-prabhav-sharmas-view-on-deep-tech-and-high-tech/ar-AA1hXSx5" },
-              { name: "Forbes", url: "https://forbes.ge/en/prabhav-sharma-s-take-on-how-the-2024-u-s-presidential-race-could-impact-private-equity-and-venture-capital-across-the-globe/" },
+              { name: "Business Insider", logo: businessInsiderLogo, url: "https://markets.businessinsider.com/news/stocks/prabhav-sharma-highlights-the-90-10-rule-of-investments-showcasing-the-power-law-of-wealth-creation-1035188412" },
+              { name: "CEO Weekly", logo: ceoWeeklyLogo, url: "https://ceoweekly.com/prabhav-sharma-analyzes-potential-bank-collapses/" },
+              { name: "Benzinga", logo: benzingaLogo, url: "https://www.benzinga.com/opinion/23/06/32694882/chatgpt-a-game-changer-for-private-equity-and-venture-capital-investors-featuring-expert-insights-fr" },
+              { name: "IB Times", logo: ibtimesLogo, url: "https://www.ibtimes.sg/navigating-rising-interest-rates-prabhav-sharmas-expert-guidance-investors-70436" },
+              { name: "LA Weekly", logo: laWeeklyLogo, url: "https://www.laweekly.com/investing-in-business-vs-investing-in-people-prabhav-sharmas-holistic-approach/" },
+              { name: "Entrepreneur", logo: entrepreneurLogo, url: "https://www.entrepreneur.com/en-in/news-and-trends/unveiling-the-momentum-investors-flocking-to-us-mid-stage/464113" },
+              { name: "Khaleej Times", logo: khaleejTimesLogo, url: "https://www.khaleejtimes.com/kt-network/private-equity-and-venture-capital-investor-prabhav-sharma-illuminates-the-path-of-risk-management-a" },
+              { name: "Apple News", logo: appleNewsLogo, url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
+              { name: "NY Weekly", logo: nyWeeklyLogo, url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
+              { name: "MSN", logo: msnLogo, url: "https://www.msn.com/en-us/money/technology/from-lab-to-market-prabhav-sharmas-view-on-deep-tech-and-high-tech/ar-AA1hXSx5" },
+              { name: "Forbes", logo: forbesLogo, url: "https://forbes.ge/en/prabhav-sharma-s-take-on-how-the-2024-u-s-presidential-race-could-impact-private-equity-and-venture-capital-across-the-globe/" },
             ].map((media) => (
               <a
                 key={media.name}
                 href={media.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-sm md:text-base font-light text-muted-foreground hover:text-foreground transition-colors duration-300 link-underline"
+                className="opacity-60 hover:opacity-100 transition-opacity duration-300"
               >
-                {media.name}
+                <img 
+                  src={media.logo} 
+                  alt={media.name} 
+                  className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                />
               </a>
             ))}
           </div>
