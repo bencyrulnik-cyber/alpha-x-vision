@@ -43,7 +43,7 @@ const AboutSection = () => {
               with deep sector expertise. Our approach is deliberate, patient, and
               focused on partnerships that generate enduring returns.
             </p>
-            <p className="text-muted-foreground font-light leading-relaxed">We evaluate mid-to-large size deals  seeking exceptional opportunities across industries poised to define the future.</p>
+            <p className="text-muted-foreground font-light leading-relaxed">We evaluate mid-to-large size deals seeking exceptional opportunities across industries poised to define the future.</p>
             <div className="pt-4">
               <span className="inline-block text-xs tracking-[0.15em] text-accent border-b border-accent pb-1 cursor-pointer hover:opacity-70 transition-opacity">
                 LEARN MORE ABOUT OUR APPROACH
