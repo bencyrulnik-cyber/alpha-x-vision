@@ -31,7 +31,14 @@ const AboutSection = () => {
         {/* Image + Text */}
         <div className="grid md:grid-cols-2 gap-12 md:gap-20 items-center">
           <div className={`relative overflow-hidden rounded-sm transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
-            <img src={desertImage} alt="Golden desert dunes at sunset" className="w-full h-[400px] md:h-[500px] object-cover hover:scale-105 transition-transform duration-700" />
+            <img 
+              src={desertImage} 
+              alt="Golden desert dunes at sunset" 
+              width={882}
+              height={500}
+              loading="lazy"
+              className="w-full h-[400px] md:h-[500px] object-cover hover:scale-105 transition-transform duration-700" 
+            />
           </div>
 
           <div className={`space-y-8 transition-all duration-700 delay-300 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
