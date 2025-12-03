@@ -133,6 +133,7 @@ const InvestmentsSection = () => {
           </p>
           <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
             {[
+              { name: "Business Insider", url: "https://markets.businessinsider.com/news/stocks/prabhav-sharma-highlights-the-90-10-rule-of-investments-showcasing-the-power-law-of-wealth-creation-1035188412" },
               { name: "CEO Weekly", url: "https://ceoweekly.com/prabhav-sharma-analyzes-potential-bank-collapses/" },
               { name: "Benzinga", url: "https://www.benzinga.com/opinion/23/06/32694882/chatgpt-a-game-changer-for-private-equity-and-venture-capital-investors-featuring-expert-insights-fr" },
               { name: "IB Times", url: "https://www.ibtimes.sg/navigating-rising-interest-rates-prabhav-sharmas-expert-guidance-investors-70436" },
