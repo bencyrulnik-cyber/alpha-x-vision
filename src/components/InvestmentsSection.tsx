@@ -145,7 +145,7 @@ const InvestmentsSection = () => {
           <p className="text-sm tracking-[0.2em] text-muted-foreground mb-8 text-center">
             SELECT MEDIA
           </p>
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 md:gap-10 justify-items-center items-center">
             {[
               { name: "Business Insider", logo: businessInsiderLogo, url: "https://markets.businessinsider.com/news/stocks/prabhav-sharma-highlights-the-90-10-rule-of-investments-showcasing-the-power-law-of-wealth-creation-1035188412" },
               { name: "CEO Weekly", logo: ceoWeeklyLogo, url: "https://ceoweekly.com/prabhav-sharma-analyzes-potential-bank-collapses/" },
@@ -170,7 +170,7 @@ const InvestmentsSection = () => {
                 <img 
                   src={media.logo} 
                   alt={media.name} 
-                  className="h-8 md:h-10 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+                  className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
                 />
               </a>
             ))}
