@@ -35,7 +35,7 @@ const HeroSection = () => {
 
       {/* Location Bar */}
       <div className="absolute bottom-0 left-0 right-0 py-6 px-6 md:px-12">
-        <div className="container mx-auto flex justify-center md:justify-start gap-8 md:gap-16">
+        <div className="container mx-auto flex justify-center gap-8 md:gap-16">
           <div
             className={`flex items-center gap-8 md:gap-12 text-primary-foreground/80 transition-all duration-1000 delay-300 ${
               loaded ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
