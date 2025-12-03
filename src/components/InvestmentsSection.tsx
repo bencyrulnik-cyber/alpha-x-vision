@@ -143,6 +143,7 @@ const InvestmentsSection = () => {
               { name: "Apple News", url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
               { name: "NY Weekly", url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
               { name: "MSN", url: "https://www.msn.com/en-us/money/technology/from-lab-to-market-prabhav-sharmas-view-on-deep-tech-and-high-tech/ar-AA1hXSx5" },
+              { name: "Forbes", url: "https://forbes.ge/en/prabhav-sharma-s-take-on-how-the-2024-u-s-presidential-race-could-impact-private-equity-and-venture-capital-across-the-globe/" },
             ].map((media) => (
               <a
                 key={media.name}
