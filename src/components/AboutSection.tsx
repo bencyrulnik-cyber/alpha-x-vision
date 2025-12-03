@@ -23,7 +23,7 @@ const AboutSection = () => {
           <p className={`text-sm tracking-[0.2em] text-muted-foreground mb-6 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
             OUR PHILOSOPHY
           </p>
-          <h2 className={`text-3xl md:text-5xl lg:text-6xl font-serif text-foreground leading-tight transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>AlphaX Holding is a private investment office  bridging innovation with lasting value.<em className="text-accent"> bridging innovation</em> with lasting value.
+          <h2 className={`text-3xl md:text-5xl lg:text-6xl font-serif text-foreground leading-tight transition-all duration-700 delay-100 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>AlphaX Holding is a private investment office   bridging innovation with lasting value.<em className="text-accent"> bridging innovation</em> with lasting value.
           </h2>
         </div>
 
