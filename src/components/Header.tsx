@@ -79,7 +79,7 @@ const Header = () => {
         <div className="flex items-center justify-end p-6">
           <button
             onClick={() => setMobileMenuOpen(false)}
-            className="p-2 text-primary-foreground/90 hover:text-primary-foreground transition-colors"
+            className="p-2 text-foreground/90 hover:text-foreground transition-colors"
             aria-label="Close menu"
           >
             <X size={24} />
@@ -91,7 +91,7 @@ const Header = () => {
               key={link.href}
               href={link.href}
               onClick={() => setMobileMenuOpen(false)}
-              className="py-4 text-lg font-light tracking-wide text-primary-foreground/90 hover:text-primary-foreground transition-colors border-b border-primary-foreground/10"
+              className="py-4 text-lg font-light tracking-wide text-foreground/90 hover:text-foreground transition-colors border-b border-border"
             >
               {link.label}
             </a>
