@@ -25,7 +25,7 @@ const Header = () => {
       <header
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
-            ? "bg-gradient-to-b from-deep-charcoal/70 to-deep-charcoal/40 backdrop-blur-sm py-4"
+            ? "bg-background/95 backdrop-blur-sm py-4"
             : "bg-transparent py-6"
         }`}
       >
@@ -44,7 +44,11 @@ const Header = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-light tracking-wide text-primary-foreground/90 link-underline hover:text-primary-foreground transition-colors"
+                className={`text-sm font-light tracking-wide link-underline transition-colors ${
+                  scrolled
+                    ? "text-deep-charcoal/90 hover:text-deep-charcoal"
+                    : "text-primary-foreground/90 hover:text-primary-foreground"
+                }`}
               >
                 {link.label}
               </a>
@@ -54,7 +58,11 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileMenuOpen(true)}
-            className="md:hidden p-2 text-primary-foreground/90 hover:text-primary-foreground transition-colors"
+            className={`md:hidden p-2 transition-colors ${
+              scrolled
+                ? "text-deep-charcoal/90 hover:text-deep-charcoal"
+                : "text-primary-foreground/90 hover:text-primary-foreground"
+            }`}
             aria-label="Open menu"
           >
             <Menu size={24} />
