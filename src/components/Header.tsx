@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/alphax-logo.jpg";
+import logo from "@/assets/alphax-logo-new.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -25,7 +25,7 @@ const Header = () => {
           <img 
             src={logo} 
             alt="AlphaX" 
-            className="h-10 md:h-12 w-auto group-hover:opacity-80 transition-opacity"
+            className="h-12 md:h-14 w-auto group-hover:opacity-90 transition-opacity rounded-md"
           />
         </a>
 
