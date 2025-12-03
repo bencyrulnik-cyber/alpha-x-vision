@@ -154,7 +154,14 @@ const InvestmentsSection = () => {
             logo: marketsInsiderLogo,
             url: "https://markets.businessinsider.com/news/stocks/ai-s-impact-on-investment-and-financial-management-strategic-analysis-from-investment-professional-prabhav-sharma-1033513318"
           }].map(media => <a key={media.name} href={media.url} target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity duration-300">
-                <img src={media.logo} alt={media.name} className="h-10 md:h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" />
+                <img 
+                  src={media.logo} 
+                  alt={media.name} 
+                  width={48}
+                  height={48}
+                  loading="lazy"
+                  className="h-10 md:h-12 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300" 
+                />
               </a>)}
           </div>
         </div>

@@ -34,6 +34,8 @@ const Header = () => {
             <img 
               src={logo} 
               alt="AlphaX" 
+              width={84}
+              height={84}
               className="h-[4.5rem] md:h-[5.25rem] w-auto group-hover:opacity-90 transition-opacity rounded-md"
             />
           </a>

@@ -15,6 +15,8 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Majestic mountain landscape at golden hour"
+          width={1545}
+          height={1088}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-deep-charcoal/40 via-transparent to-deep-charcoal/30" />
