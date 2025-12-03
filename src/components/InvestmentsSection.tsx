@@ -120,6 +120,41 @@ const InvestmentsSection = () => {
             commitment to long-term partnership.
           </p>
         </div>
+
+        {/* Select Media Section */}
+        <div
+          className={`mt-24 md:mt-32 transition-all duration-700 ${
+            visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          }`}
+          style={{ transitionDelay: "900ms" }}
+        >
+          <p className="text-sm tracking-[0.2em] text-muted-foreground mb-8 text-center">
+            SELECT MEDIA
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12">
+            {[
+              { name: "CEO Weekly", url: "https://ceoweekly.com/prabhav-sharma-analyzes-potential-bank-collapses/" },
+              { name: "Benzinga", url: "https://www.benzinga.com/opinion/23/06/32694882/chatgpt-a-game-changer-for-private-equity-and-venture-capital-investors-featuring-expert-insights-fr" },
+              { name: "IB Times", url: "https://www.ibtimes.sg/navigating-rising-interest-rates-prabhav-sharmas-expert-guidance-investors-70436" },
+              { name: "LA Weekly", url: "https://www.laweekly.com/investing-in-business-vs-investing-in-people-prabhav-sharmas-holistic-approach/" },
+              { name: "Entrepreneur", url: "https://www.entrepreneur.com/en-in/news-and-trends/unveiling-the-momentum-investors-flocking-to-us-mid-stage/464113" },
+              { name: "Khaleej Times", url: "https://www.khaleejtimes.com/kt-network/private-equity-and-venture-capital-investor-prabhav-sharma-illuminates-the-path-of-risk-management-a" },
+              { name: "Apple News", url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
+              { name: "NY Weekly", url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
+              { name: "MSN", url: "https://www.msn.com/en-us/money/technology/from-lab-to-market-prabhav-sharmas-view-on-deep-tech-and-high-tech/ar-AA1hXSx5" },
+            ].map((media) => (
+              <a
+                key={media.name}
+                href={media.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm md:text-base font-light text-muted-foreground hover:text-foreground transition-colors duration-300 link-underline"
+              >
+                {media.name}
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );
