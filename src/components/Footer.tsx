@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="py-8">
         <div className="container mx-auto px-6 md:px-12">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-primary-foreground/40 text-xs tracking-wide">
-            <span>© {new Date().getFullYear()} Alpha X Holding. All rights reserved.</span>
+            <span>© {new Date().getFullYear()} AlphaX Holding. All rights reserved.</span>
             <div className="flex items-center gap-6">
               <a href="#" className="hover:text-primary-foreground/70 transition-colors">
                 Privacy Policy
