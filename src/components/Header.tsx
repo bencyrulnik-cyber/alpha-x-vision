@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import logo from "@/assets/alphax-logo.jpg";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -20,10 +21,12 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
-        <a href="/" className="flex items-center gap-2 group">
-          <span className="text-2xl md:text-3xl font-serif tracking-tight text-primary-foreground group-hover:opacity-80 transition-opacity">
-            AlphaX
-          </span>
+        <a href="/" className="flex items-center group">
+          <img 
+            src={logo} 
+            alt="AlphaX" 
+            className="h-10 md:h-12 w-auto group-hover:opacity-80 transition-opacity"
+          />
         </a>
 
         <nav className="hidden md:flex items-center gap-10">
