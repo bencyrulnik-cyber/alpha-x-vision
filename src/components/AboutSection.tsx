@@ -45,9 +45,12 @@ const AboutSection = () => {
             </p>
             <p className="text-muted-foreground font-light leading-relaxed">We evaluate mid-to-large size deals seeking exceptional opportunities across industries poised to define the future.</p>
             <div className="pt-4">
-              <span className="inline-block text-xs tracking-[0.15em] text-accent border-b border-accent pb-1 cursor-pointer hover:opacity-70 transition-opacity">
+              <a 
+                href="#investments" 
+                className="inline-block text-xs tracking-[0.15em] text-accent border-b border-accent pb-1 hover:opacity-70 transition-opacity"
+              >
                 LEARN MORE ABOUT OUR APPROACH
-              </span>
+              </a>
             </div>
           </div>
         </div>
