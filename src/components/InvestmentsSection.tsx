@@ -12,6 +12,7 @@ import khaleejTimesLogo from "@/assets/media/khaleej-times.png";
 import appleNewsLogo from "@/assets/media/apple-news.png";
 import nyWeeklyLogo from "@/assets/media/ny-weekly.png";
 import forbesLogo from "@/assets/media/forbes.png";
+import gulfNewsLogo from "@/assets/media/gulf-news.png";
 
 const investmentAreas = [
   {
@@ -155,6 +156,7 @@ const InvestmentsSection = () => {
               { name: "Apple News", logo: appleNewsLogo, url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
               { name: "NY Weekly", logo: nyWeeklyLogo, url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
               { name: "Forbes", logo: forbesLogo, url: "https://forbes.ge/en/prabhav-sharma-s-take-on-how-the-2024-u-s-presidential-race-could-impact-private-equity-and-venture-capital-across-the-globe/" },
+              { name: "Gulf News", logo: gulfNewsLogo, url: "https://gulfnews.com/business/corporate-news/prabhav-sharma-speaks-on-family-office-20-at-adfo-summit-in-abu-dhabi-1.1718788859888" },
             ].map((media) => (
               <a
                 key={media.name}
