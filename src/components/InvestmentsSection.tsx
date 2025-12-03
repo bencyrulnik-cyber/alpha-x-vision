@@ -94,9 +94,7 @@ const InvestmentsSection = () => {
         <div className={`mt-16 md:mt-24 text-center transition-all duration-700 ${visible ? "opacity-100 translate-y-0 delay-700" : "opacity-0 translate-y-6"}`} style={{
         transitionDelay: "800ms"
       }}>
-          <p className="text-muted-foreground font-light max-w-2xl mx-auto">We focus on mid-to-large size deals, evaluated with rigorous due diligence and a commitment to long-term partnership.<span className="text-foreground">mid-to-large size deals</span>,
-            evaluated on a case-by-case basis with rigorous due diligence and a
-            commitment to long-term partnership.
+          <p className="text-muted-foreground font-light max-w-2xl mx-auto">We focus on mid-to-large size deals, evaluated with rigorous due diligence and a commitment to long-term partnership.<span className="text-foreground">mid-to-large size deals</span>​
           </p>
         </div>
 
