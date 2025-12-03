@@ -11,7 +11,6 @@ import entrepreneurLogo from "@/assets/media/entrepreneur.png";
 import khaleejTimesLogo from "@/assets/media/khaleej-times.png";
 import appleNewsLogo from "@/assets/media/apple-news.png";
 import nyWeeklyLogo from "@/assets/media/ny-weekly.png";
-import msnLogo from "@/assets/media/msn.png";
 import forbesLogo from "@/assets/media/forbes.png";
 
 const investmentAreas = [
@@ -155,7 +154,6 @@ const InvestmentsSection = () => {
               { name: "Khaleej Times", logo: khaleejTimesLogo, url: "https://www.khaleejtimes.com/kt-network/private-equity-and-venture-capital-investor-prabhav-sharma-illuminates-the-path-of-risk-management-a" },
               { name: "Apple News", logo: appleNewsLogo, url: "https://apple.news/A3ppIjnOCSNyAE-WfhqP-Tw" },
               { name: "NY Weekly", logo: nyWeeklyLogo, url: "https://nyweekly.com/tech/prabhav-sharmas-visionary-understanding-of-ais-global-market-influence-a-butterfly-effect-unleashed/" },
-              { name: "MSN", logo: msnLogo, url: "https://www.msn.com/en-us/money/technology/from-lab-to-market-prabhav-sharmas-view-on-deep-tech-and-high-tech/ar-AA1hXSx5" },
               { name: "Forbes", logo: forbesLogo, url: "https://forbes.ge/en/prabhav-sharma-s-take-on-how-the-2024-u-s-presidential-race-could-impact-private-equity-and-venture-capital-across-the-globe/" },
             ].map((media) => (
               <a
