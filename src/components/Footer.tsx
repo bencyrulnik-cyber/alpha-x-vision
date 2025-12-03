@@ -8,15 +8,14 @@ const Footer = () => {
               IMPORTANT DISCLOSURES
             </h4>
             <div className="space-y-4 text-[11px] leading-relaxed text-primary-foreground/35">
-              <p>This website is for informational purposes only and does not constitute an offer to sell, a solicitation of an offer to buy, or a recommendation for any security, nor does it constitute an offer to provide investment advisory or other services by AlphaX Holding or its affiliates.</p>
+              <p>This website is for informational purposes only and does not constitute an offer to sell, a solicitation of an offer to buy, or a recommendation for any investment opportunity. Nothing on this website should be construed as investment, legal, tax, or financial advice.</p>
               <p>
-                Past performance is not indicative of future results. Any investment involves risk, including 
-                the possible loss of principal. There is no guarantee that any investment strategy will achieve 
-                its objectives. Investors should consult with their financial, legal, and tax advisors before 
-                making any investment decisions.
+                All investments involve risk, including the potential loss of principal. Past performance is not indicative 
+                of future results. There can be no assurance that any investment will achieve its objectives or avoid losses. 
+                Prospective investors should carefully consider their own financial situation and risk tolerance before making 
+                any investment decisions.
               </p>
-              <p>AlphaX Holding and its affiliates do not provide tax, legal, or accounting advice. This material has been prepared for informational purposes only, and is not intended to provide, and should not be relied on for, tax, legal, or accounting advice.</p>
-              <p>Securities offered through AlphaX Holding are not deposits or obligations of, or guaranteed or endorsed by, any bank; are not federally insured by the FDIC, Federal Reserve Board, or any other agency; and involve investment risks, including possible loss of the principal amount invested.</p>
+              <p>The information presented on this website may contain forward-looking statements and projections. Such statements are based on current expectations and assumptions that are subject to risks and uncertainties, and actual results may differ materially.</p>
             </div>
           </div>
         </div>
@@ -33,9 +32,6 @@ const Footer = () => {
               </a>
               <a href="#" className="hover:text-primary-foreground/70 transition-colors">
                 Terms of Use
-              </a>
-              <a href="#" className="hover:text-primary-foreground/70 transition-colors">
-                Regulatory Information
               </a>
             </div>
           </div>
