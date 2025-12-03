@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "@/assets/alphax-logo-new.png";
+import logo from "@/assets/alphax-logo.png";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
