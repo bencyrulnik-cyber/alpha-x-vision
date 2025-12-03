@@ -22,7 +22,7 @@ const Header = () => {
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
         <a href="/" className="flex items-center gap-2 group">
           <span className="text-2xl md:text-3xl font-serif tracking-tight text-primary-foreground group-hover:opacity-80 transition-opacity">
-            ALPHA X
+            AlphaX
           </span>
         </a>
 
