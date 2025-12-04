@@ -45,11 +45,11 @@ const ContactSection = () => {
               building the future. Reach out to begin a dialogue.
             </p>
             <a
-              href="mailto:contact@alphaxholding.com"
+              href="mailto:office@alphaxholding.com"
               className="inline-flex items-center gap-3 text-sm tracking-wide border-b border-primary-foreground/30 pb-2 hover:border-primary-foreground transition-colors group"
             >
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
-              contact@alphaxholding.com
+              office@alphaxholding.com
             </a>
           </div>
 
