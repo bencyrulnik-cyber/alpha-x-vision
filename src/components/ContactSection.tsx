@@ -1,37 +1,26 @@
 import { useEffect, useRef, useState } from "react";
 import { MapPin, Mail, Linkedin } from "lucide-react";
-
 const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const [visible, setVisible] = useState(false);
-
   useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setVisible(true);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry.isIntersecting) {
+        setVisible(true);
+      }
+    }, {
+      threshold: 0.1
+    });
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
-
     return () => observer.disconnect();
   }, []);
-
-  return (
-    <section id="contact" className="py-24 md:py-32 bg-deep-charcoal text-primary-foreground" ref={sectionRef}>
+  return <section id="contact" className="py-24 md:py-32 bg-deep-charcoal text-primary-foreground" ref={sectionRef}>
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-2 gap-16 md:gap-24">
           {/* Left - CTA */}
-          <div
-            className={`space-y-8 transition-all duration-700 ${
-              visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
-          >
+          <div className={`space-y-8 transition-all duration-700 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`}>
             <p className="text-sm tracking-[0.2em] text-primary-foreground/60">
               GET IN TOUCH
             </p>
@@ -44,28 +33,15 @@ const ContactSection = () => {
               We welcome conversations with founders, partners, and visionaries
               building the future. Reach out to begin a dialogue.
             </p>
-            <a
-              href="mailto:office@alphaxholding.com"
-              className="flex items-center gap-3 text-sm tracking-wide border-b border-primary-foreground/30 pb-2 hover:border-primary-foreground transition-colors group w-fit"
-            >
+            <a href="mailto:office@alphaxholding.com" className="flex items-center gap-3 text-sm tracking-wide border-b border-primary-foreground/30 pb-2 hover:border-primary-foreground transition-colors group w-fit my-[15px]">
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
               office@alphaxholding.com
             </a>
-            <div className="flex items-center gap-4 -mt-4">
-              <a
-                href="https://www.linkedin.com/company/alphax-holding/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block hover:opacity-70 transition-opacity"
-              >
+            <div className="flex items-center gap-4 -mt-4 mx-0 my-[12px]">
+              <a href="https://www.linkedin.com/company/alphax-holding/" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-70 transition-opacity">
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a
-                href="https://x.com/alphaxholding"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block hover:opacity-70 transition-opacity"
-              >
+              <a href="https://x.com/alphaxholding" target="_blank" rel="noopener noreferrer" className="inline-block hover:opacity-70 transition-opacity">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
@@ -74,12 +50,9 @@ const ContactSection = () => {
           </div>
 
           {/* Right - Locations */}
-          <div
-            className={`space-y-12 transition-all duration-700 delay-200 ${
-              visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-            }`}
-            style={{ transitionDelay: "200ms" }}
-          >
+          <div className={`space-y-12 transition-all duration-700 delay-200 ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{
+          transitionDelay: "200ms"
+        }}>
             <p className="text-sm tracking-[0.2em] text-primary-foreground/60">
               OUR OFFICES
             </p>
@@ -91,7 +64,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="text-lg font-serif mb-2">Abu Dhabi</h4>
                   <p className="text-primary-foreground/60 font-light text-sm leading-relaxed">
-                    Al Maryah Island<br />
+                    Al Maryah Island, Al Maqam Tower   <br />
                     Abu Dhabi Global Market<br />
                     United Arab Emirates
                   </p>
@@ -114,8 +87,6 @@ const ContactSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default ContactSection;
