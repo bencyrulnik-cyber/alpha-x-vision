@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { MapPin, Mail, Linkedin } from "lucide-react";
+import { MapPin, Mail, Linkedin, Twitter } from "lucide-react";
 
 const ContactSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -51,14 +51,24 @@ const ContactSection = () => {
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
               office@alphaxholding.com
             </a>
-            <a
-              href="https://www.linkedin.com/company/alphax-holding/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block hover:opacity-70 transition-opacity"
-            >
-              <Linkedin className="w-5 h-5" />
-            </a>
+            <div className="flex items-center gap-4">
+              <a
+                href="https://www.linkedin.com/company/alphax-holding/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-70 transition-opacity"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
+              <a
+                href="https://x.com/alphaxholding"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block hover:opacity-70 transition-opacity"
+              >
+                <Twitter className="w-5 h-5" />
+              </a>
+            </div>
           </div>
 
           {/* Right - Locations */}
