@@ -55,10 +55,9 @@ const ContactSection = () => {
               href="https://www.linkedin.com/company/alphax-holding/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 text-sm tracking-wide border-b border-primary-foreground/30 pb-2 hover:border-primary-foreground transition-colors group w-fit"
+              className="inline-block hover:opacity-70 transition-opacity"
             >
-              <Linkedin className="w-4 h-4 group-hover:scale-110 transition-transform" />
-              LinkedIn
+              <Linkedin className="w-5 h-5" />
             </a>
           </div>
 
