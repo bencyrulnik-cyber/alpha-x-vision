@@ -51,7 +51,7 @@ const ContactSection = () => {
               <Mail className="w-4 h-4 group-hover:scale-110 transition-transform" />
               office@alphaxholding.com
             </a>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 -mt-4">
               <a
                 href="https://www.linkedin.com/company/alphax-holding/"
                 target="_blank"
