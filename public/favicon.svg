@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" fill="#ffffff"/>
+  <!-- Triangle "A" mark -->
+  <path d="M32 8 L58 54 L48 54 L32 26 L16 54 L6 54 Z" fill="#1a1a1a"/>
+  <path d="M21 44 L43 44 L47 51 L17 51 Z" fill="#1a1a1a"/>
+  <!-- Orange diagonal accent -->
+  <path d="M28 18 L40 50 L34 50 L22 18 Z" fill="#e87722"/>
+</svg>
