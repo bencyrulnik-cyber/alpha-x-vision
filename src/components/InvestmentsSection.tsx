@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Rocket, Cpu, Heart, Dna, Leaf, Building2, UtensilsCrossed, Gem } from "lucide-react";
+import { Rocket, Cpu, Heart, Dna, Leaf, Building2, UtensilsCrossed, Gem, Sparkles, Landmark, Mountain } from "lucide-react";
 
 // Media logos
 import businessInsiderLogo from "@/assets/media/business-insider.png";
@@ -46,6 +46,18 @@ const investmentAreas = [{
   icon: Gem,
   title: "Luxury Goods",
   description: "Heritage brands with timeless appeal"
+}, {
+  icon: Sparkles,
+  title: "Wellness",
+  description: "Longevity and holistic well-being ventures"
+}, {
+  icon: Landmark,
+  title: "Finance",
+  description: "Capital markets, asset management, and fintech"
+}, {
+  icon: Mountain,
+  title: "Mining",
+  description: "Critical minerals and responsible resource extraction"
 }];
 const InvestmentsSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
