@@ -83,6 +83,19 @@ const ContactSection = () => {
                   </p>
                 </div>
               </div>
+
+              {/* London */}
+              <div className="flex items-start gap-4">
+                <MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
+                <div>
+                  <h4 className="text-lg font-serif mb-2">London</h4>
+                  <p className="text-primary-foreground/60 font-light text-sm leading-relaxed">
+                    Mayfair<br />
+                    London W1K<br />
+                    United Kingdom
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
