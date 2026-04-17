@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { Rocket, Cpu, Heart, Dna, Leaf, Building2, UtensilsCrossed, Gem, Sparkles, Landmark, Mountain } from "lucide-react";
+import { Rocket, Cpu, Heart, Dna, Leaf, Building2, UtensilsCrossed, Gem, Sparkles, Landmark, Mountain, Film } from "lucide-react";
 
 // Media logos
 import businessInsiderLogo from "@/assets/media/business-insider.png";
@@ -58,6 +58,10 @@ const investmentAreas = [{
   icon: Mountain,
   title: "Mining",
   description: "Critical minerals and responsible resource extraction"
+}, {
+  icon: Film,
+  title: "Entertainment",
+  description: "Media, content, and live experiences at scale"
 }];
 const InvestmentsSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
