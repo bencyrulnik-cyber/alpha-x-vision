@@ -46,7 +46,7 @@ const AboutSection = () => {
               A global perspective with regional roots.
             </h3>
             <p className="text-muted-foreground font-light leading-relaxed">
-              With offices in Abu Dhabi, Europe, India and New York, we combine
+              With offices in Abu Dhabi, Europe and New York, we combine
               strategic insight with deep sector expertise. Our approach is
               deliberate, patient, and focused on partnerships that generate
               enduring returns.

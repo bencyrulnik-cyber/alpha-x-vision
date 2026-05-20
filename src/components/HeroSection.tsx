@@ -47,8 +47,6 @@ const HeroSection = () => {
             <span className="text-xs opacity-50">•</span>
             <span className="text-sm tracking-[0.2em] font-light">EUROPE</span>
             <span className="text-xs opacity-50">•</span>
-            <span className="text-sm tracking-[0.2em] font-light">INDIA</span>
-            <span className="text-xs opacity-50">•</span>
             <span className="text-sm tracking-[0.2em] font-light">NEW YORK</span>
           </div>
         </div>
