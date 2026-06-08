@@ -46,10 +46,9 @@ const AboutSection = () => {
               A global perspective with regional roots.
             </h3>
             <p className="text-muted-foreground font-light leading-relaxed">
-              With offices in Abu Dhabi, Europe and New York, we combine
-              strategic insight with deep sector expertise. Our approach is
-              deliberate, patient, and focused on partnerships that generate
-              enduring returns.
+              With offices in Abu Dhabi, we combine strategic insight with deep
+              sector expertise. Our approach is deliberate, patient, and focused
+              on partnerships that generate enduring returns.
             </p>
             <p className="text-muted-foreground font-light leading-relaxed">We evaluate mid-to-large size deals seeking exceptional opportunities across industries poised to define the future.</p>
             <div className="pt-4">

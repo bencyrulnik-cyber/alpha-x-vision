@@ -70,32 +70,6 @@ const ContactSection = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Europe */}
-              <div className="flex items-start gap-4">
-                <MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="text-lg font-serif mb-2">Europe</h4>
-                  <p className="text-primary-foreground/60 font-light text-sm leading-relaxed">
-                    Merchants Street<br />
-                    Valletta<br />
-                    Malta
-                  </p>
-                </div>
-              </div>
-
-              {/* New York */}
-              <div className="flex items-start gap-4">
-                <MapPin className="w-5 h-5 text-gold mt-1 flex-shrink-0" />
-                <div>
-                  <h4 className="text-lg font-serif mb-2">New York</h4>
-                  <p className="text-primary-foreground/60 font-light text-sm leading-relaxed">
-                    Park Avenue<br />
-                    Manhattan, NY 10022<br />
-                    United States
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
