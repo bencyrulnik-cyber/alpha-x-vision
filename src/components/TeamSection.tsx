@@ -20,7 +20,7 @@ const leaders = [
   },
   {
     name: "Ben Cyrulnik",
-    role: "EXECUTIVE VICE PRESIDENT",
+    role: "EXECUTIVE VICE PRESIDENT — INVESTMENTS",
     desc: "Strategic partnerships, deal sourcing, and global investment development.",
     photo: benImg,
   },
