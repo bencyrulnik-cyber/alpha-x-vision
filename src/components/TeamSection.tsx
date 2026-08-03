@@ -25,16 +25,16 @@ const leaders = [
     photo: benImg,
   },
   {
-    name: "Shashank Parihar",
-    role: "EXECUTIVE VICE PRESIDENT — INVESTMENTS",
-    desc: "Investment execution and portfolio development across strategic sectors.",
-    photo: shashankImg,
-  },
-  {
     name: "Angele Giuliano",
     role: "REGIONAL LEAD",
     desc: "Leading regional expansion strategy and partnership development.",
     photo: angeleImg,
+  },
+  {
+    name: "Shashank Parihar",
+    role: "EXECUTIVE VICE PRESIDENT — INVESTMENTS",
+    desc: "Investment execution and portfolio development across strategic sectors.",
+    photo: shashankImg,
   },
 ];
 
