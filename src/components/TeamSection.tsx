@@ -8,32 +8,27 @@ import angeleImg from "@/assets/team/angele.jpg";
 const leaders = [
   {
     name: "Prabhav Sharma",
-    role: "CHAIRMAN & GCEO",
-    desc: "Entrepreneur and investor with global experience building investment platforms.",
+    role: "CHAIRMAN & GROUP CHIEF EXECUTIVE OFFICER",
     photo: prabhavImg,
   },
   {
     name: "Khalifa Mohamed Al Fahim",
     role: "EXECUTIVE DIRECTOR — INVESTMENTS & STRATEGY",
-    desc: "Investments leadership and strategic relations across key markets.",
     photo: khalifaImg,
   },
   {
     name: "Ben Cyrulnik",
-    role: "EXECUTIVE VICE PRESIDENT — INVESTMENTS",
-    desc: "Strategic partnerships, deal sourcing, and global investment development.",
+    role: "EXECUTIVE VICE PRESIDENT - INVESTMENTS",
     photo: benImg,
   },
   {
     name: "Angele Giuliano",
-    role: "REGIONAL LEAD",
-    desc: "Leading regional expansion strategy and partnership development.",
+    role: "REGIONAL LEAD - EUROPE",
     photo: angeleImg,
   },
   {
     name: "Shashank Parihar",
-    role: "EXECUTIVE VICE PRESIDENT — INVESTMENTS",
-    desc: "Investment execution and portfolio development across strategic sectors.",
+    role: "EXECUTIVE VICE PRESIDENT - INVESTMENTS",
     photo: shashankImg,
   },
 ];
@@ -113,9 +108,6 @@ const TeamSection = () => {
                 {leader.role}
               </p>
 
-              <p className="mt-4 pb-8 sm:pb-0 text-sm text-muted-foreground font-light leading-[1.8]">
-                {leader.desc}
-              </p>
             </article>
           ))}
         </div>
