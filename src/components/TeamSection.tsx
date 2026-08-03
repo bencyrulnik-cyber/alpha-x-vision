@@ -104,7 +104,7 @@ const TeamSection = () => {
               <h3 className="text-xl md:text-[1.35rem] font-serif text-foreground leading-snug">
                 {leader.name}
               </h3>
-              <p className="mt-3 text-[10px] md:text-[11px] tracking-[0.2em] text-accent leading-relaxed uppercase sm:min-h-[2.4rem] xl:min-h-[3.4rem]">
+              <p className="mt-3 text-[11px] tracking-[0.2em] text-accent leading-relaxed uppercase min-h-[3rem]">
                 {leader.role}
               </p>
 
