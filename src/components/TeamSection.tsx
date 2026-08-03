@@ -108,9 +108,6 @@ const TeamSection = () => {
                 {leader.role}
               </p>
 
-              <p className="mt-4 pb-8 sm:pb-0 text-sm text-muted-foreground font-light leading-[1.8]">
-                {leader.desc}
-              </p>
             </article>
           ))}
         </div>
