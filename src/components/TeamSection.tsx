@@ -14,7 +14,7 @@ const leaders = [
   },
   {
     name: "Khalifa Mohamed Al Fahim",
-    role: "EXECUTIVE DIRECTOR — INVESTMENTS & STRATEGIC RELATIONS",
+    role: "EXECUTIVE DIRECTOR — INVESTMENTS & STRATEGY",
     desc: "Investments leadership and strategic relations across key markets.",
     photo: khalifaImg,
   },
