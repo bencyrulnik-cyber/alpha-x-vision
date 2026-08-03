@@ -13,7 +13,7 @@ const leaders = [
   },
   {
     name: "Khalifa Mohamed Al Fahim",
-    role: "EXECUTIVE DIRECTOR — INVESTMENTS & STRATEGY",
+    role: "EXECUTIVE DIRECTOR - INVESTMENTS & STRATEGY",
     photo: khalifaImg,
   },
   {
