@@ -28,7 +28,7 @@ const leaders = [
   },
   {
     name: "Shashank Parihar",
-    role: "EXECUTIVE VICE PRESIDENT - INVESTMENTS",
+    role: "EXECUTIVE VICE PRESIDENT - INVESTMENTS, INDIA & MIDDLE EAST",
     photo: shashankImg,
   },
 ];
